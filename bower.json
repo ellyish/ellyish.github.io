@@ -1,0 +1,34 @@
+{
+  "name": "Solo Creative Studio",
+  "version": "0.1",
+  "homepage": "https://github.com/murtaugh/HTML5-Reset",
+  "authors": [
+    "Elly Ishmael ellyishmael@gmail.com"
+  ],
+  "description": "Solo creative studio's website",
+  "main": "index.html",
+  "keywords": [
+    "solo",
+    "studio",
+    "creative",
+    "branding",
+    "web",
+    "development",
+    "creative",
+    "services"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "directory":"assets/js/libs"
+
+}

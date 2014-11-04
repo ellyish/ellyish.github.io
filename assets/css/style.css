@@ -1,0 +1,374 @@
+@font-face {
+    font-family: Nexa;
+    src: url("fonts/Nexa Bold.otf");
+}
+
+@font-face {
+    font-family: Nexa Light;
+    src: url("fonts/Nexa Light.otf");
+}
+
+/* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
+body {font: 13px Helmet, Freesans, sans-serif;}
+
+/* Using local fonts? Check out Font Squirrel's webfont generator: http://www.fontsquirrel.com/tools/webfont-generator */
+
+/* We like off-black for text. */
+body, select, input, textarea {color: #333;}
+
+a {color: #03f;}
+a:hover {color: #69f;}
+
+/* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
+::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
+::selection {background: #fcd700; color: #fff; text-shadow: none;} 
+
+/*	j.mp/webkit-tap-highlight-color */
+a:link {-webkit-tap-highlight-color: #fcd700;} 
+
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+
+/* Mozilla dosen't style place holders by default */
+input:-moz-placeholder { color:#a9a9a9; }
+textarea:-moz-placeholder { color:#a9a9a9; }
+
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+/* Desktops and laptops ----------- */
+/*@media only screen and (min-width : 1224px) {
+*/	
+
+
+/*
+	Styling first section
+*/
+
+	.solosection {
+		width: 100%;
+		display: block;
+		height: 900px;
+	}
+
+	.solofirstsection {
+		background-color: #973232;
+		background-image: url("/assets/img/bg.jpg");
+		background-size: auto;
+	}
+
+	.solologo {
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    top: 300px;
+	    width: 126px;
+	    height: 89px;
+
+	}
+
+	.solosloganone {
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    top: 444px;
+	    width:1012px;
+	    font-family: Nexa;
+	    font-size: 70.25px;
+	    color: #fff;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+	}
+
+	.soloslogantwo {
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    top: 529px;
+	    width: 900px;
+	    font-family: Nexa Light;
+	    font-size: 35.13px;
+	    color: #fff;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+	}
+
+	.soloscrolldown {
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    top: 730px;
+	}
+
+/*
+	Styling second section
+*/
+
+	.soloaboutussection {
+
+	}
+
+	.solodescription {
+		font-family: Nexa Light;
+		font-size: 29px;
+		width: 1000px;
+		height: 639px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 170px;
+	    color: #f3b344;
+	}
+	
+	.solopersons {
+		width: 1000px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 261px;
+	    z-index: -1;
+	}
+
+	.soloellyname {
+		font-family: Nexa Light;
+		font-size: 29px;
+		width: 197px;
+		position:absolute;
+	    color: #f3b344;
+	}
+	
+	.soloabulmaaliname {
+		font-family: Nexa Light;
+		font-size: 29px;
+		width: 173px;
+		position:absolute;
+	    color: #f3b344;
+	    left: 826px;
+	}
+
+	.solothegeeks {
+		font-family: Nexa Light;
+		font-size: 29px;
+		width: 143px;
+		position:absolute;
+	    color: #666666;
+	    margin-top: 35px;
+	}
+	
+	.solotheartist {
+		font-family: Nexa Light;
+		font-size: 29px;
+		width: 138px;
+		position:absolute;
+	    color: #666666;
+	    left: 863px;
+	    margin-top: 35px;
+
+	}
+	
+	.solocentring {
+		width: 1000px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 458px;
+	}
+
+	.solosmallgrid1 {
+		width: 60px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-top: 80px;
+	}
+
+	.solosmallgrid2 {
+		width: 60px;
+		position:absolute;
+	    right:0;
+	    margin-top: 80px;
+	}
+
+	.solosmallcolumn {
+		width: 25px;
+		display: inline-block;
+		float: left;
+		margin-right: 5px;
+	}
+
+
+	
+/*
+	Styling portfolio section
+*/
+
+	.soloservicessection {
+		background-color: #43ab33;
+	}
+
+
+/*
+	Styling portfolio section
+*/
+
+	.soloprotfoliosection {
+		background-color: #45ff34;
+	}
+/*
+	Styling contactus section
+*/
+
+	.solointerested {
+		font-family: Nexa Light;
+		font-size: 42.03px;
+		width: 456px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 330px;
+	    color: #616161;
+	}
+	
+	.sololetusknow {
+		font-family: Nexa;
+		font-size: 72.05px;
+		width: 515px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 385px;
+	    color: #f3b344;
+	}
+
+	.sologrid {
+		width: 885px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 520px;
+	    color: #f3b344;
+	    font-family: Nexa Light;
+	    font-size: 20.35px;
+	}
+
+	.solocolumn {
+		width: 330px;
+		float: left;
+	}
+
+	.sololastitem {
+		width:200px;
+	}
+
+	.soloinlined {
+		display: inline-block;
+		margin-left: 15px;
+		top: 0px;
+		position: absolute;
+		float: left;
+	}
+
+	.solofontnexabold {
+		font-family: Nexa;
+
+	}
+
+	.sologrid2 {
+		width: 595px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 575px;
+	    color: #616161;
+	    font-family: Nexa Light;
+	    font-size: 20.35px;
+	}
+
+	.solocolumn2 {
+		width: 35px;
+		float: left;
+		margin-left: 15px;
+
+	}
+
+	.solofirstitem {
+		width:230px;
+		margin-top: 5px;
+	}
+
+
+/*
+	Styling footer section
+*/
+	.solofootersection {
+		background-color: #f3b344 ;
+		height: 300px;
+	}
+
+	.solofooterlogo {
+		width: 126px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 50px;
+	    color: #616161;
+	    font-family: Nexa Light;
+	    font-size: 20.35px;
+	}
+
+	.solofootertext {
+		width: 546px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 180px;
+	    color: #fff;
+	    font-family: Nexa Light;
+	    font-size: 20px;
+	}
+
+/*
+}
+*/
+/* iPads (portrait and landscape) ----------- */
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}*/
+
+/* Smartphones (portrait and landscape) ----------- */
+/*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+}
+*/
+
+/* Print styles
+-------------------------------------------------------------------------------*/
+@media print {
+
+
+
+}
