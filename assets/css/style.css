@@ -37,18 +37,77 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 /* Media queries
 -------------------------------------------------------------------------------*/
 /* Desktops and laptops ----------- */
-/*@media only screen and (min-width : 1224px) {
-*/	
+@media only screen and (min-width : 1025px) {
+	
+/* navigation menu */
+
+	.solotopheader {
+		position: fixed;
+		left: 50%;
+		margin-left: -500px;
+		width: 1000px;
+		background-color: #ffffff;
+		height: 70px;
+		z-index: 12;
+		
+	}
+
+	.solologotype {
+		font-family: Nexa Light;
+		font-size: 19.25px;
+		float: left;
+		margin-top: 40px;
+	}
+
+	.solologotype > img{
+		float: left;
+		margin-top: 3px;
+		margin-right: 5px;
+
+	}
+
+	.solologotype > div {
+		float: left;
+	}
+
+	.solonavmenu {
+		margin-top: 40px;
+		float: right;		
+	}
+
+	.solonavmenuitem {
+		display: inline-block;
+		margin-left: 48px;
+
+	}
+
+	.solonavmenuitem > a {
+		text-decoration: none;
+		font-size: 22.29px;
+		font-family: Nexa Light;
+		color: #000;
+	}
+
+	.solonavmenuitem > a:visited {
+		color: #000;
+	}
+
+	.solonavmenuitem > a:hover {
+		color: #000;
+	}
+
 
 
 /*
 	Styling first section
 */
 
+
 	.solosection {
 		width: 100%;
 		display: block;
 		height: 900px;
+
 	}
 
 	.solofirstsection {
@@ -208,14 +267,63 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 		margin-right: 5px;
 	}
 
-
-	
 /*
-	Styling portfolio section
+	Styling services section
 */
 
+	.soloservicescontainer {
+		width: 1000px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 242px;
+	}
+
+	.soloservicesgrid {
+		width: 220px;
+		float: left;
+		height: 480px;
+		margin-right: 40px;
+	}
+
+	.soloservicesgridlastitem {
+		margin-right: 0px;
+	}
+
+	.solocreativeicon {
+		margin-top: 43px;
+		margin-bottom: 25px;
+		margin-left:auto;
+	    margin-right:auto;
+	    width: 60px;
+	}
+
+	.soloservicestitle {
+		font-size: 22.64px;
+		font-family: Nexa Light; 
+		margin-bottom: 50px;
+		margin-left:auto;
+	    margin-right:auto;
+	    width: 220px;
+	    text-align: center;
+
+
+	}
+
+	.soloservicesdesc {
+		font-family: Nexa Light;
+		font-size: 19.01px; 
+		text-align: justify;
+	}
+
 	.soloservicessection {
-		background-color: #43ab33;
+		background-color: #fff;
+	}
+
+	.soloservicesbold {
+		font-family: Nexa;
 	}
 
 
@@ -224,8 +332,34 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 */
 
 	.soloprotfoliosection {
-		background-color: #45ff34;
+		background-color: #fff;
 	}
+
+
+	.soloportfolioconatiner {
+		width: 1000px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 242px;
+	}
+
+	.soloworkitem {
+		width: 220px;
+		float: left;
+		height: 220px;
+		margin-bottom: 40px;
+		background-color: #000;
+		margin-right: 40px;
+	}
+
+	.soloworkitemlast {
+		margin-right: 0px;
+	}
+
+
 /*
 	Styling contactus section
 */
@@ -351,19 +485,18 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	    font-size: 20px;
 	}
 
-/*
-}
-*/
-/* iPads (portrait and landscape) ----------- */
-/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
-}*/
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+}
 
 /* Smartphones (portrait and landscape) ----------- */
-/*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
 }
-*/
 
 /* Print styles
 -------------------------------------------------------------------------------*/

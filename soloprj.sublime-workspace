@@ -4,12 +4,40 @@
 		"selected_items":
 		[
 			[
-				"cl",
-				"ClassName	class"
+				"margin",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"text",
+				"text-decoration"
 			],
 			[
 				"marg",
-				"margin-right"
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"MARGI",
+				"margin-top"
+			],
+			[
+				"cl",
+				"ClassName	class"
 			],
 			[
 				"font",
@@ -26,45 +54,18 @@
 			[
 				"in",
 				"inline-block"
-			],
-			[
-				"mar",
-				"margin"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"contents": "HTML\nCSS\nHTTPS\nPython\nMongodb\nMySQL\nCherryPy\nGithub\nAgile Development\nRestful API",
 			"settings":
 			{
-				"buffer_size": 8184,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/js/functions.js",
-			"settings":
-			{
-				"buffer_size": 618,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "readme.md",
-			"settings":
-			{
-				"buffer_size": 30,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/style.css",
-			"settings":
-			{
-				"buffer_size": 6487,
-				"line_ending": "Unix"
+				"buffer_size": 81,
+				"line_ending": "Windows",
+				"name": "HTML"
 			}
 		}
 	],
@@ -107,19 +108,22 @@
 		"/D/Projects/solosite/assets",
 		"/D/Projects/solosite/assets/css",
 		"/D/Projects/solosite/assets/css/fonts",
+		"/D/Projects/solosite/assets/img",
 		"/D/Projects/solosite/assets/js"
 	],
 	"file_history":
 	[
-		"/D/Projects/solosite/credinatails",
+		"/D/Projects/solosite/assets/css/style.css",
+		"/D/Projects/solosite/index.html",
+		"/D/Projects/solosite/assets/js/functions.js",
 		"/D/Projects/solosite/readme.md",
+		"/D/Projects/solosite/credinatails",
 		"/D/Projects/solosite/soloprj.sublime-project",
-		"/D/Notes/Fikra - Vacanccies.txt",
-		"/D/Projects/solosite/assets/js/functions.js"
+		"/D/Notes/Fikra - Vacanccies.txt"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -133,6 +137,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"		\n",
 			"logo",
 			"\n	",
 			"475px"
@@ -153,129 +158,37 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8184,
+						"buffer_size": 81,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5527,
-								5527
+								81,
+								81
 							]
 						],
 						"settings":
 						{
 							"WordCountShouldRun": true,
-							"WordCountSyntax": "html",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 387.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "assets/js/functions.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 618,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								618,
-								618
-							]
-						],
-						"settings":
-						{
-							"WordCountShouldRun": false,
-							"WordCountSyntax": "javascript",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "readme.md",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 30,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"WordCountShouldRun": true,
-							"WordCountSyntax": "markdown",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+							"WordCountSyntax": "plain text",
+							"auto_name": "HTML",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "assets/css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6487,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3029,
-								3029
-							]
-						],
-						"settings":
-						{
-							"WordCountSyntax": "css",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2408.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -323,7 +236,7 @@
 	"project": "soloprj.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 100.0
 	},
 	"save_all_on_build": true,
 	"select_file":
