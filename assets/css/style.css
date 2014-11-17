@@ -189,7 +189,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	}
 	
 	.solopersons {
-		width: 1000px;
+		width: 738px;
 		position:absolute;
 	    left:0;
 	    right:0;
@@ -197,6 +197,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	    margin-right:auto;
 	    margin-top: 261px;
 	    z-index: -1;
+
 	}
 
 	.soloellyname {
@@ -588,6 +589,9 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	    margin-right:auto;
 	    margin-top: 261px;
 	    z-index: -1;
+	    visibility: hidden;
+	    display: none;
+
 	}
 
 	.soloellyname {
@@ -604,7 +608,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 		width: 173px;
 		position:absolute;
 	    color: #f3b344;
-	    left: 826px;
+	    left: 606px;
 	}
 
 	.solothegeeks {
@@ -618,17 +622,17 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	
 	.solotheartist {
 		font-family: Nexa Light;
-		font-size: 29px;
+		font-size: 19.06px;
 		width: 138px;
 		position:absolute;
 	    color: #666666;
-	    left: 863px;
+	    left: 648px;
 	    margin-top: 35px;
 
 	}
 	
 	.solocentring {
-		width: 1000px;
+		width: 738px;
 		position:absolute;
 	    left:0;
 	    right:0;
