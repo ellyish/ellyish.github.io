@@ -41,7 +41,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 /* navigation menu */
 
 	.solotopheader {
-		position: absolute;
+		position:absolute;
 		left: 50%;
 		margin-left: -500px;
 		width: 1000px;
@@ -504,7 +504,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 		background-color: #ffffff;
 		height: 70px;
 		z-index: 12;
-		top: 738px;
+		top: 769px;
 	}
 
 	.solologotype {
@@ -523,6 +523,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 
 	.solologotype > div {
 		float: left;
+		margin-top: 5px;
 	}
 
 	.solonavmenu {
