@@ -111,7 +111,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	.solofirstsection {
 		background-color: #973232;
 		background-image: url("/assets/img/bg.jpg");
-		background-size: auto;
+		background-size: 100%;
 	}
 
 	.solologo {
