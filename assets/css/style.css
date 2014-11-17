@@ -494,6 +494,55 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 
 
 @media only screen and (max-width : 1149px) {
+	/* navigation menu */
+
+	.solotopheader {
+		position: absolute;
+		left: 50%;
+		margin-left: -369px;
+		width: 738px;
+		background-color: #ffffff;
+		height: 70px;
+		z-index: 12;
+		top: 738px;
+	}
+
+	.solologotype {
+		font-family: Nexa Light;
+		font-size: 14.11px;
+		float: left;
+		margin-top: 40px;
+	}
+
+	.solologotype > img{
+		float: left;
+		margin-top: 3px;
+		margin-right: 5px;
+
+	}
+
+	.solologotype > div {
+		float: left;
+	}
+
+	.solonavmenu {
+		margin-top: 40px;
+		float: right;		
+	}
+
+	.solonavmenuitem {
+		display: inline-block;
+		margin-left: 48px;
+
+	}
+
+	.solonavmenuitem > a {
+		text-decoration: none;
+		font-size: 16.34px;
+		font-family: Nexa Light;
+		color: #000;
+	}
+
 	.solosection {
 		width: 100%;
 		display: block;
@@ -556,16 +605,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	    height: 76px;
 	}
 
-	.solotopheader {
-		position: absolute;
-		left: 50%;
-		margin-left: -500px;
-		width: 1000px;
-		background-color: #ffffff;
-		height: 70px;
-		z-index: 12;
-		top: 768px;
-	}
+
 
 	.solodescription {
 		font-family: Nexa Light;
@@ -662,6 +702,206 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 		float: left;
 		margin-right: 5px;
 	}
+
+	.soloservicescontainer {
+		width: 738px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 242px;
+	}
+
+	.soloservicesgrid {
+		width: 145px;
+		float: left;
+		height: 480px;
+		margin-right: 52px;
+	}
+
+	.soloservicesgridlastitem {
+		margin-right: 0px;
+	}
+
+	.solocreativeicon {
+		margin-top: 43px;
+		margin-bottom: 25px;
+		margin-left:auto;
+	    margin-right:auto;
+	    width: 60px;
+	}
+
+	.soloservicestitle {
+		font-size: 17.23px;
+		font-family: Nexa Light; 
+		margin-bottom: 50px;
+		margin-left:auto;
+	    margin-right:auto;
+	    width: 145px;
+	    text-align: center;
+
+
+	}
+
+	.soloservicesdesc {
+		font-family: Nexa Light;
+		font-size: 14.46px; 
+		text-align: justify;
+	}
+
+	.soloservicessection {
+		background-color: #fff;
+	}
+
+	.soloservicesbold {
+		font-family: Nexa;
+	}
+
+
+
+
+	.soloportfolioconatiner {
+		width: 738px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 242px;
+	}
+
+	.soloworkitem {
+		width: 164px;
+		height: 164px;
+		float: left;
+		margin-bottom: 40px;
+		background-color: #000;
+		margin-right: 27px;
+	}
+
+	.soloworkitemlast {
+		margin-right: 0px;
+	}
+
+	.solointerested {
+		font-family: Nexa Light;
+		font-size: 37.33px;
+		width: 405px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 330px;
+	    color: #616161;
+	}
+	
+	.sololetusknow {
+		font-family: Nexa;
+		font-size: 63.99px;
+		width: 456px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 385px;
+	    color: #f3b344;
+	}
+
+	.sologrid {
+		width: 738px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 520px;
+	    color: #f3b344;
+	    font-family: Nexa Light;
+	    font-size: 18.08px;
+	}
+
+	.solocolumn {
+		width: 269px;
+		float: left;
+	}
+
+	.sololastitem {
+		width:200px;
+	}
+
+	.soloinlined {
+		display: inline-block;
+		margin-left: 15px;
+		top: 0px;
+		position: absolute;
+		float: left;
+	}
+
+	.solofontnexabold {
+		font-family: Nexa;
+
+	}
+
+	.sologrid2 {
+		width: 595px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 575px;
+	    color: #616161;
+	    font-family: Nexa Light;
+	    font-size: 17.78px;
+	}
+
+	.solocolumn2 {
+		width: 35px;
+		float: left;
+		margin-left: 15px;
+
+	}
+
+	.solofirstitem {
+		width:230px;
+		margin-top: 5px;
+	}
+
+		.solofootersection {
+		background-color: #f3b344 ;
+		height: 300px;
+	}
+
+	.solofooterlogo {
+		width: 126px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 50px;
+	    color: #616161;
+	    font-family: Nexa Light;
+	    font-size: 20.35px;
+	}
+
+	.solofootertext {
+		width: 546px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 180px;
+	    color: #fff;
+	    font-family: Nexa Light;
+	    font-size: 20px;
+	}
+
+
 
 
 }
