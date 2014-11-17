@@ -37,18 +37,18 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 /* Media queries
 -------------------------------------------------------------------------------*/
 /* Desktops and laptops ----------- */
-	
+
 /* navigation menu */
 
 	.solotopheader {
-		position: fixed;
+		position: absolute;
 		left: 50%;
 		margin-left: -500px;
 		width: 1000px;
 		background-color: #ffffff;
 		height: 70px;
 		z-index: 12;
-		
+		top: 900px;
 	}
 
 	.solologotype {
@@ -106,7 +106,6 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 		width: 100%;
 		display: block;
 		height: 900px;
-
 	}
 
 	.solofirstsection {
@@ -122,9 +121,8 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	    margin-left:auto;
 	    margin-right:auto;
 	    top: 300px;
-	    width: 126px;
-	    height: 89px;
-
+	    width: 138px;
+	    height: 97px;
 	}
 
 	.solosloganone {
@@ -485,13 +483,174 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	}
 
 
-}
 
 
 
 
-@media only screen and (min-width : 1200px) {
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1149px) {
+	.solosection {
+		width: 100%;
+		display: block;
+		height: 768px;
+	}
+
+	.solologo {
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    top: 260px;
+	    width: 138px;
+	    height: 97px;
+	}
 	
+
+	.solosloganone {
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    top: 395px;
+	    width:773px;
+	    font-family: Nexa;
+	    font-size: 54.07px;
+	    color: #fff;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+	}
+
+	.soloslogantwo {
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    top: 460px;
+	    width: 657px;
+	    font-family: Nexa Light;
+	    font-size: 27.04px;
+	    color: #fff;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+	}
+
+	.soloscrolldown {
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    top: 640px;
+	    width: 126px;
+	    height: 76px;
+	}
+
+	.solotopheader {
+		position: absolute;
+		left: 50%;
+		margin-left: -500px;
+		width: 1000px;
+		background-color: #ffffff;
+		height: 70px;
+		z-index: 12;
+		top: 768px;
+	}
+
+	.solodescription {
+		font-family: Nexa Light;
+		font-size: 21.26px;
+		width: 738px;
+		height: 639px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 170px;
+	    color: #f3b344;
+	}
+	.solopersons {
+		width: 1000px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 261px;
+	    z-index: -1;
+	}
+
+	.soloellyname {
+		font-family: Nexa Light;
+		font-size: 21.99px;
+		width: 197px;
+		position:absolute;
+	    color: #f3b344;
+	}
+	
+	.soloabulmaaliname {
+		font-family: Nexa Light;
+		font-size: 21.99px;
+		width: 173px;
+		position:absolute;
+	    color: #f3b344;
+	    left: 826px;
+	}
+
+	.solothegeeks {
+		font-family: Nexa Light;
+		font-size: 19.06px;
+		width: 143px;
+		position:absolute;
+	    color: #666666;
+	    margin-top: 35px;
+	}
+	
+	.solotheartist {
+		font-family: Nexa Light;
+		font-size: 29px;
+		width: 138px;
+		position:absolute;
+	    color: #666666;
+	    left: 863px;
+	    margin-top: 35px;
+
+	}
+	
+	.solocentring {
+		width: 1000px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-top: 458px;
+	}
+
+	.solosmallgrid1 {
+		width: 60px;
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-top: 80px;
+	}
+
+	.solosmallgrid2 {
+		width: 60px;
+		position:absolute;
+	    right:0;
+	    margin-top: 80px;
+	}
+
+	.solosmallcolumn {
+		width: 25px;
+		display: inline-block;
+		float: left;
+		margin-right: 5px;
+	}
+
+
 }
 
 @media only screen and (max-width : 320px) {

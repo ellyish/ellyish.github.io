@@ -71,7 +71,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 8351,
+				"buffer_size": 8248,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +79,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11137,
+				"buffer_size": 11230,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/functions.js",
+			"settings":
+			{
+				"buffer_size": 1038,
 				"line_ending": "Unix"
 			}
 		}
@@ -152,6 +160,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"soloperson",
 			"z-inde",
 			"z-",
 			"<td class=\"padded\" style=\"padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;text-align: right;\">",
@@ -188,15 +197,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8351,
+						"buffer_size": 8248,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8059,
-								8059
+								8069,
+								8069
 							]
 						],
 						"settings":
@@ -207,7 +216,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8598.0,
+						"translation.y": 8484.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -219,15 +228,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11137,
+						"buffer_size": 11230,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4591,
-								4591
+								6084,
+								6084
 							]
 						],
 						"settings":
@@ -238,7 +247,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1955.0,
+						"translation.y": 2657.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/js/functions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								967,
+								967
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "javascript",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
