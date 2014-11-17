@@ -37,7 +37,6 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 /* Media queries
 -------------------------------------------------------------------------------*/
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1025px) {
 	
 /* navigation menu */
 
@@ -488,15 +487,6 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-}
 
 /* Print styles
 -------------------------------------------------------------------------------*/

@@ -4,12 +4,28 @@
 		"selected_items":
 		[
 			[
-				"margin",
-				"margin-right"
+				"marg",
+				"margin-left"
 			],
 			[
 				"mar",
-				"margin-bottom"
+				"margin-top"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-right"
 			],
 			[
 				"te",
@@ -22,14 +38,6 @@
 			[
 				"text",
 				"text-decoration"
-			],
-			[
-				"marg",
-				"margin-bottom"
-			],
-			[
-				"fon",
-				"font-family"
 			],
 			[
 				"MARGI",
@@ -60,12 +68,19 @@
 	"buffers":
 	[
 		{
-			"contents": "HTML\nCSS\nHTTPS\nPython\nMongodb\nMySQL\nCherryPy\nGithub\nAgile Development\nRestful API",
+			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 81,
-				"line_ending": "Windows",
-				"name": "HTML"
+				"buffer_size": 8351,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 11137,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -107,15 +122,15 @@
 		"/D/Projects/solosite",
 		"/D/Projects/solosite/assets",
 		"/D/Projects/solosite/assets/css",
-		"/D/Projects/solosite/assets/css/fonts",
-		"/D/Projects/solosite/assets/img",
 		"/D/Projects/solosite/assets/js"
 	],
 	"file_history":
 	[
+		"/C/Users/hp/Desktop/email/index.htm",
+		"/C/Users/hp/Desktop/tttt/index.htm",
+		"/D/Projects/solosite/assets/js/functions.js",
 		"/D/Projects/solosite/assets/css/style.css",
 		"/D/Projects/solosite/index.html",
-		"/D/Projects/solosite/assets/js/functions.js",
 		"/D/Projects/solosite/readme.md",
 		"/D/Projects/solosite/credinatails",
 		"/D/Projects/solosite/soloprj.sublime-project",
@@ -137,6 +152,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"z-inde",
+			"z-",
+			"<td class=\"padded\" style=\"padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;text-align: right;\">",
+			"padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;",
+			"style=\"padding: 0;vertical-align: top;padding-left: 32px;padding-right: 32px;",
+			"<!",
 			"		\n",
 			"logo",
 			"\n	",
@@ -163,32 +184,64 @@
 			[
 				{
 					"buffer": 0,
+					"file": "assets/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 81,
+						"buffer_size": 8351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								81,
-								81
+								8059,
+								8059
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "css",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8598.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4591,
+								4591
 							]
 						],
 						"settings":
 						{
 							"WordCountShouldRun": true,
-							"WordCountSyntax": "plain text",
-							"auto_name": "HTML",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"WordCountSyntax": "html",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1955.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
