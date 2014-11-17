@@ -115,6 +115,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	.solobackground {
 		height:100%;
 		width:100%;
+		border:0;
 	}
 
 	.solologo {
@@ -498,6 +499,11 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 		height: 768px;
 	}
 
+	.solobackground {
+		height:100%;
+		width:100%;
+		border:0;
+	}
 	.solologo {
 		position:absolute;
 	    left:0;
