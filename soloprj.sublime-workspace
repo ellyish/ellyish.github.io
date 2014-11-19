@@ -68,27 +68,27 @@
 	"buffers":
 	[
 		{
-			"file": "assets/css/style.css",
+			"file": "portfolio/assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 8248,
-				"line_ending": "Unix"
+				"buffer_size": 9493,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11230,
+				"buffer_size": 11285,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/js/functions.js",
+			"file": "portfolio/index.html",
 			"settings":
 			{
-				"buffer_size": 1038,
-				"line_ending": "Unix"
+				"buffer_size": 5778,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -130,15 +130,19 @@
 		"/D/Projects/solosite",
 		"/D/Projects/solosite/assets",
 		"/D/Projects/solosite/assets/css",
-		"/D/Projects/solosite/assets/js"
+		"/D/Projects/solosite/assets/js",
+		"/D/Projects/solosite/portfolio",
+		"/D/Projects/solosite/portfolio/assets",
+		"/D/Projects/solosite/portfolio/assets/css"
 	],
 	"file_history":
 	[
+		"/D/Projects/solosite/index.html",
+		"/D/Projects/solosite/assets/js/functions.js",
+		"/D/Projects/solosite/portfolio/portfolio_template.html",
+		"/D/Projects/solosite/assets/css/style.css",
 		"/C/Users/hp/Desktop/email/index.htm",
 		"/C/Users/hp/Desktop/tttt/index.htm",
-		"/D/Projects/solosite/assets/js/functions.js",
-		"/D/Projects/solosite/assets/css/style.css",
-		"/D/Projects/solosite/index.html",
 		"/D/Projects/solosite/readme.md",
 		"/D/Projects/solosite/credinatails",
 		"/D/Projects/solosite/soloprj.sublime-project",
@@ -160,6 +164,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"solotopheader",
+			"let",
+			"soloco",
+			"solotop",
+			"soloser",
+			"solotopheader",
+			".solocentring",
 			"soloperson",
 			"z-inde",
 			"z-",
@@ -193,30 +204,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "assets/css/style.css",
+					"file": "portfolio/assets/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8248,
+						"buffer_size": 9493,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8069,
-								8069
+								7970,
+								7970
 							]
 						],
 						"settings":
 						{
-							"WordCountShouldRun": false,
-							"WordCountSyntax": "css",
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "plain text",
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8484.0,
+						"translation.y": 8370.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -225,18 +236,18 @@
 				{
 					"buffer": 1,
 					"file": "index.html",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 11230,
+						"buffer_size": 11285,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6084,
-								6084
+								4899,
+								4899
 							]
 						],
 						"settings":
@@ -247,41 +258,41 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2657.0,
+						"translation.y": 1998.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "assets/js/functions.js",
+					"file": "portfolio/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1038,
+						"buffer_size": 5778,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								967,
-								967
+								4713,
+								4728
 							]
 						],
 						"settings":
 						{
-							"WordCountShouldRun": false,
-							"WordCountSyntax": "javascript",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "html",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 108.0,
+						"translation.y": 1998.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

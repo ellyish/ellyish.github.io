@@ -1,11 +1,11 @@
 @font-face {
     font-family: Nexa;
-    src: url("fonts/Nexa Bold.otf");
+    src: url("../../../assets/css/fonts/Nexa Bold.otf");
 }
 
 @font-face {
     font-family: Nexa Light;
-    src: url("fonts/Nexa Light.otf");
+    src: url("../../../assets/css/fonts/Nexa Light.otf");
 }
 
 /* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
@@ -48,7 +48,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 		background-color: #ffffff;
 		height: 70px;
 		z-index: 12;
-		top: 900px;
+		top: 0px;
 	}
 
 	.solologotype {
@@ -487,12 +487,16 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	    font-size: 20px;
 	}
 
+	.soloinfosection {
+		
+	}
 
 
 
 
 
 
+@media only screen and (max-width : 1149px) {
 	/* navigation menu */
 
 	.solotopheader {
@@ -549,328 +553,8 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 		height: 768px;
 	}
 
-	.solobackground {
-		height:100%;
-		width:100%;
-		border:0;
-	}
-	.solologo {
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    top: 260px;
-	    width: 138px;
-	    height: 97px;
-	}
-	
 
-	.solosloganone {
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    top: 395px;
-	    width:773px;
-	    font-family: Nexa;
-	    font-size: 54.07px;
-	    color: #fff;
-		text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
-	}
-
-	.soloslogantwo {
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    top: 460px;
-	    width: 657px;
-	    font-family: Nexa Light;
-	    font-size: 27.04px;
-	    color: #fff;
-		text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
-	}
-
-	.soloscrolldown {
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    top: 640px;
-	    width: 126px;
-	    height: 76px;
-	}
-
-
-
-	.solodescription {
-		font-family: Nexa Light;
-		font-size: 21.26px;
-		width: 738px;
-		height: 639px;
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    margin-top: 170px;
-	    color: #f3b344;
-	}
-	.solopersons {
-		width: 1000px;
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    margin-top: 261px;
-	    z-index: -1;
-	    visibility: hidden;
-	    display: none;
-
-	}
-
-	.soloellyname {
-		font-family: Nexa Light;
-		font-size: 21.99px;
-		width: 197px;
-		position:absolute;
-	    color: #f3b344;
-	}
-	
-	.soloabulmaaliname {
-		font-family: Nexa Light;
-		font-size: 21.99px;
-		width: 173px;
-		position:absolute;
-	    color: #f3b344;
-	    left: 606px;
-	}
-
-	.solothegeeks {
-		font-family: Nexa Light;
-		font-size: 19.06px;
-		width: 143px;
-		position:absolute;
-	    color: #666666;
-	    margin-top: 35px;
-	}
-	
-	.solotheartist {
-		font-family: Nexa Light;
-		font-size: 19.06px;
-		width: 138px;
-		position:absolute;
-	    color: #666666;
-	    left: 648px;
-	    margin-top: 35px;
-
-	}
-	
-	.solocentring {
-		width: 738px;
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    margin-top: 458px;
-	}
-
-	.solosmallgrid1 {
-		width: 60px;
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-top: 80px;
-	}
-
-	.solosmallgrid2 {
-		width: 60px;
-		position:absolute;
-	    right:0;
-	    margin-top: 80px;
-	}
-
-	.solosmallcolumn {
-		width: 25px;
-		display: inline-block;
-		float: left;
-		margin-right: 5px;
-	}
-
-	.soloservicescontainer {
-		width: 738px;
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    margin-top: 242px;
-	}
-
-	.soloservicesgrid {
-		width: 145px;
-		float: left;
-		height: 480px;
-		margin-right: 52px;
-	}
-
-	.soloservicesgridlastitem {
-		margin-right: 0px;
-	}
-
-	.solocreativeicon {
-		margin-top: 43px;
-		margin-bottom: 25px;
-		margin-left:auto;
-	    margin-right:auto;
-	    width: 60px;
-	}
-
-	.soloservicestitle {
-		font-size: 17.23px;
-		font-family: Nexa Light; 
-		margin-bottom: 50px;
-		margin-left:auto;
-	    margin-right:auto;
-	    width: 145px;
-	    text-align: center;
-
-
-	}
-
-	.soloservicesdesc {
-		font-family: Nexa Light;
-		font-size: 14.46px; 
-		text-align: justify;
-	}
-
-	.soloservicessection {
-		background-color: #fff;
-	}
-
-	.soloservicesbold {
-		font-family: Nexa;
-	}
-
-
-
-
-	.soloportfolioconatiner {
-		width: 738px;
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    margin-top: 242px;
-	}
-
-	.soloworkitem {
-		width: 164px;
-		height: 164px;
-		float: left;
-		margin-bottom: 40px;
-		background-color: #000;
-		margin-right: 27px;
-	}
-
-	.soloworkitemlast {
-		margin-right: 0px;
-	}
-
-	.solointerested {
-		font-family: Nexa Light;
-		font-size: 37.33px;
-		width: 405px;
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    margin-top: 330px;
-	    color: #616161;
-	}
-	
-	.sololetusknow {
-		font-family: Nexa;
-		font-size: 63.99px;
-		width: 456px;
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    margin-top: 385px;
-	    color: #f3b344;
-	}
-
-	.sologrid {
-		width: 738px;
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    margin-top: 520px;
-	    color: #f3b344;
-	    font-family: Nexa Light;
-	    font-size: 18.08px;
-	}
-
-	.solocolumn {
-		width: 269px;
-		float: left;
-	}
-
-	.sololastitem {
-		width:200px;
-	}
-
-	.soloinlined {
-		display: inline-block;
-		margin-left: 15px;
-		top: 0px;
-		position: absolute;
-		float: left;
-	}
-
-	.solofontnexabold {
-		font-family: Nexa;
-
-	}
-
-	.sologrid2 {
-		width: 595px;
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    margin-top: 575px;
-	    color: #616161;
-	    font-family: Nexa Light;
-	    font-size: 17.78px;
-	}
-
-	.solocolumn2 {
-		width: 35px;
-		float: left;
-		margin-left: 15px;
-
-	}
-
-	.solofirstitem {
-		width:230px;
-		margin-top: 5px;
-	}
-
-		.solofootersection {
+	.solofootersection {
 		background-color: #f3b344 ;
 		height: 300px;
 	}
@@ -904,6 +588,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 
 
 
+}
 
 @media only screen and (max-width : 320px) {
 
