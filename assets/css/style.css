@@ -292,18 +292,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	    color: #616161;
 	}
 	
-	.sololetusknow {
-		font-family: Nexa;
-		font-size: 72.05px;
-		width: 515px;
-		position:absolute;
-	    left:0;
-	    right:0;
-	    margin-left:auto;
-	    margin-right:auto;
-	    margin-top: 385px;
-	    color: #f3b344;
-	}
+
 
 	.sologrid {
 		width: 885px;
@@ -713,7 +702,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	.sololetusknow {
 		font-family: Nexa;
 		font-size: 63.99px;
-		width: 456px;
+		width: 457px;
 		position:absolute;
 	    left:0;
 	    right:0;
