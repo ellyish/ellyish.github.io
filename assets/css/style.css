@@ -905,8 +905,34 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 
 
 
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 768px) {
+	.solosloganone {
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    top: 395px;
+	    width:550px;
+	    font-family: Nexa;
+	    font-size: 44px;
+	    color: #fff;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+	}
 
+	.soloslogantwo {
+		position:absolute;
+	    left:0;
+	    right:0;
+	    margin-left:auto;
+	    margin-right:auto;
+	    top: 529px;
+	    width: 700px;
+	    font-family: Nexa Light;
+	    font-size: 35.13px;
+	    color: #fff;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+	}
 }
 
 
