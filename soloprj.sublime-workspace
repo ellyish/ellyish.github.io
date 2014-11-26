@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
 				"marg",
-				"margin-left"
+				"margin-top"
+			],
+			[
+				"hig",
+				"height"
 			],
 			[
 				"mar",
@@ -68,34 +80,26 @@
 	"buffers":
 	[
 		{
-			"file": "portfolio/assets/css/style.css",
+			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 9493,
-				"line_ending": "Windows"
+				"buffer_size": 12753,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11285,
+				"buffer_size": 11299,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "portfolio/index.html",
-			"settings":
-			{
-				"buffer_size": 5778,
-				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
@@ -107,7 +111,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 386.0
 	},
 	"console":
 	{
@@ -131,16 +135,19 @@
 		"/D/Projects/solosite/assets",
 		"/D/Projects/solosite/assets/css",
 		"/D/Projects/solosite/assets/js",
-		"/D/Projects/solosite/portfolio",
 		"/D/Projects/solosite/portfolio/assets",
 		"/D/Projects/solosite/portfolio/assets/css"
 	],
 	"file_history":
 	[
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/User/main.py",
+		"/C/Users/hp/AppData/Roaming/Sublime Text 3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/D/Projects/solosite/portfolio/index.html",
+		"/D/Projects/solosite/portfolio/assets/css/style.css",
+		"/D/Projects/solosite/assets/css/style.css",
 		"/D/Projects/solosite/index.html",
 		"/D/Projects/solosite/assets/js/functions.js",
 		"/D/Projects/solosite/portfolio/portfolio_template.html",
-		"/D/Projects/solosite/assets/css/style.css",
 		"/C/Users/hp/Desktop/email/index.htm",
 		"/C/Users/hp/Desktop/tttt/index.htm",
 		"/D/Projects/solosite/readme.md",
@@ -164,6 +171,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"soloaboutussection",
+			"soloabout",
+			"solodes",
+			"tophea",
+			"51px",
+			"solosloganone",
+			"solologo",
+			"sololo",
+			"sloganon",
+			"firstsectioncontatiner",
+			"solosloganone",
+			"soloblackbox",
+			"abul",
+			"slogano",
+			"let",
+			"slogano",
+			"sloganone",
+			"solothear",
+			"abul",
+			"slogant",
+			"slogan",
+			"slo",
+			"slog",
+			"the geeks",
+			"logo",
 			"solotopheader",
 			"let",
 			"soloco",
@@ -204,30 +236,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "portfolio/assets/css/style.css",
+					"file": "assets/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9493,
+						"buffer_size": 12753,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7970,
-								7970
+								2281,
+								2281
 							]
 						],
 						"settings":
 						{
-							"WordCountShouldRun": true,
-							"WordCountSyntax": "plain text",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 8370.0,
+						"translation.y": 1309.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -236,63 +265,29 @@
 				{
 					"buffer": 1,
 					"file": "index.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 11285,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4899,
-								4899
-							]
-						],
-						"settings":
-						{
-							"WordCountShouldRun": true,
-							"WordCountSyntax": "html",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1998.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "portfolio/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5778,
+						"buffer_size": 11299,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4713,
-								4728
+								5062,
+								5080
 							]
 						],
 						"settings":
 						{
-							"WordCountShouldRun": true,
-							"WordCountSyntax": "html",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1998.0,
+						"translation.y": 1889.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
